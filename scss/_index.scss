@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sec-one {
+    .img-sec{
+        width: 100%;
+    }
+
+    .portada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo-principal {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 60%;
+            border-radius: 50%;
+        }
+
+        .titulo {
+            font-size: 20px;
+            color: white;
+        }
+
+        .nombre {
+            font-size: 15px;
+            color: white;
+        }
+
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .lg {
+            width: 10%;
+            margin: 10px;
+        }
+    }
+
+}
+
+
+
+.proyectos {
+    text-align: center;
+    margin-top: 30px;
+
+    .title-two {
+        margin-bottom: 30px;
+    }
+
+    .inf-proyec {
+        display: flex;
+        flex-direction: column;
+
+        .img-proyec {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}

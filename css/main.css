@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.sec-one .img-sec {
+  width: 100%; }
+
+.sec-one .portada {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .sec-one .portada .logo-principal {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    border-radius: 50%; }
+  .sec-one .portada .titulo {
+    font-size: 20px;
+    color: white; }
+  .sec-one .portada .nombre {
+    font-size: 15px;
+    color: white; }
+
+.sec-one .logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .sec-one .logos .lg {
+    width: 10%;
+    margin: 10px; }
+
+.proyectos {
+  text-align: center;
+  margin-top: 30px; }
+  .proyectos .title-two {
+    margin-bottom: 30px; }
+  .proyectos .inf-proyec {
+    display: flex;
+    flex-direction: column; }
+    .proyectos .inf-proyec .img-proyec {
+      width: 100%;
+      margin-bottom: 30px; }
